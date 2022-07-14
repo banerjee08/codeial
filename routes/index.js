@@ -10,6 +10,8 @@ router.get('/', homeController.home )
 // access home_controller's actions
 router.use('/users', require('./users'))
 
+router.use('/posts', require('./posts'))
+
 // how to control all the routes or have a list of all the routes
 
 // for any further routes, access from here
